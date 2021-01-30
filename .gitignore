@@ -1,2 +1,2 @@
-/src/dll/renderer_heavy
-/src/dll/software_renderer
+src/dll*
+!src/dll/renderer_simple
