@@ -1,0 +1,1 @@
+g++ -fPIC -shared ../src/dll/renderer_simple/cpp/*.cpp ../libs/libglfw3.a -I ../src/dll/renderer_simple/headers/ -I ../libs/glfw -I ../libs/glew -lGL -lX11 -ldl -lGLEW -o ../bin/renderer.so -std=c++17 -g
